@@ -1,4 +1,3 @@
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
 import {
   getDatabase,
@@ -11,7 +10,7 @@ import {
 const firebaseConfig = {
   apiKey: "SUA_API_KEY",
   authDomain: "SEU_PROJETO.firebaseapp.com",
-  databaseURL: "SUA_DATABASE_URL",
+  databaseURL: "https://site-back-end-default-rtdb.firebaseio.com",
   projectId: "SEU_PROJETO",
   storageBucket: "SEU_PROJETO.firebasestorage.app",
   messagingSenderId: "SEU_ID",
